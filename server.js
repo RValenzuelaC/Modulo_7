@@ -1,4 +1,5 @@
 require("dotenv").config({ quiet: true });
+require("./src/models/relaciones");
 
 const app = require("./src/app");
 const { sequelize, probarConexion } = require("./src/config/db");
